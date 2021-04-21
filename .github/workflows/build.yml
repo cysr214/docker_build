@@ -32,11 +32,11 @@ jobs:
           context: .
           push: true
           tags: cysr214/nginx:latest
-      -
-        name: Build and push php-latest
-        uses: docker/build-push-action@v2
-        with:
-          context: ./php
-          push: true
-          tags: cysr214/nginx:php-latest          
+#      -
+#        name: Build and push php-latest
+#        uses: docker/build-push-action@v2
+#        with:
+#          context: ./php
+#          push: true
+#          tags: cysr214/nginx:php-latest          
           
