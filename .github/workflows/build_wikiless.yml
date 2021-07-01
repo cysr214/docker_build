@@ -15,7 +15,7 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v2
-        with： 
+        with: 
           repository: https://codeberg.org/orenom/Wikiless
       -
         name: Set up QEMU
